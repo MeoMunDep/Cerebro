@@ -1,1 +1,6 @@
-
+{
+  "chat": {
+    "enable": true,
+    "amount": [10, 20]
+  }
+}
