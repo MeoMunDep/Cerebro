@@ -12,6 +12,10 @@ echo Checking configuration files...
 
 if not exist configs.json (
     echo {> configs.json
+    echo   "chat": {>> configs.json
+    echo   "enable": true,>> configs.json
+    echo   "amount": [10, 20]>> configs.json
+    echo   },>> configs.json
     echo   "timeToRestartAllAccounts": 300,>> configs.json
     echo   "howManyAccountsRunInOneTime": 100,>> configs.json
     echo }>> configs.json
