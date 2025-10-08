@@ -82,12 +82,12 @@ npm install --no-audit --no-fund --prefer-offline --force user-agents axios meo-
 <details>
 <summary><strong>🗂️ 2. <code>datas.txt</code> - User Data</strong></summary>
 
-📥 [Guide from Telegram](https://t.me/KeoAirDropFreeNee/1586)
+📥 [Guide from Telegram](https://t.me/KeoAirDropFreeNee/1964)
 
 ```txt
-query_id.../user...
-query_id.../user...
-query_id.../user...
+cookie
+cookie
+cookie
 ```
 
 </details>
