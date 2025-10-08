@@ -53,18 +53,6 @@ npm install --no-audit --no-fund --prefer-offline --force user-agents axios meo-
 
 </details>
 
-<details>
-<summary><strong>🐳 Install via Docker</strong></summary>
-
-```bash
-docker build -t Cerebro-image .
-docker run -d --name Cerebro-container -v $(pwd)/logs:/app/logs Cerebro-image
-```
-
-> 💡 On **Windows CMD**, use `%cd%` instead of `$(pwd)`
-
-</details>
-
 ---
 
 ## Bot Configuration
@@ -160,23 +148,6 @@ chmod +x run.sh
 
 </details>
 
-<details>
-<summary><strong>🐳 Run with Docker</strong></summary>
-
-```bash
-docker stop Cerebro-container 2>/dev/null && docker rm Cerebro-container 2>/dev/null
-docker build -t Cerebro-image .
-docker run -d --name Cerebro-container -v $(pwd)/logs:/app/logs Cerebro-image
-```
-
-> Later restart:
-
-```bash
-docker start Cerebro-container
-```
-
-</details>
-
 ---
 
 ## Updating the Bot
@@ -188,18 +159,6 @@ docker start Cerebro-container
 cd Cerebro
 git pull origin main
 npm install
-```
-
-</details>
-
-<details>
-<summary><strong>🐳 If using Docker</strong></summary>
-
-```bash
-docker stop Cerebro-container
-docker rm Cerebro-container
-docker build -t Cerebro-image .
-docker run -d --name Cerebro-container Cerebro-image
 ```
 
 </details>
